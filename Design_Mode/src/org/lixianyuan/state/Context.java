@@ -7,6 +7,7 @@ package org.lixianyuan.state;
 public class Context {
 	//状态
 	private State state;
+	
 	public Context(State state){//定义Context的初始状态
 		this.state = state;
 	}
